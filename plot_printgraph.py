@@ -75,6 +75,12 @@ class PrintGraph(Graph):
         Graph.clear(self)
         self.fh.write("Clear graph\n")
 
+    def stin ():
+        sdfjjdsfjakh
+        sdfjksdjhfa
+        dafsfjlsdjf 
+        sdkafjkla 
+
 
 if __name__ == '__main__':
     G = PrintGraph()
