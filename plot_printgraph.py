@@ -85,6 +85,11 @@ if __name__ == '__main__':
     dskjfksdaflkasdlfkj
     dsfkajsdkfjas
     dsfaksjfkjalkfjlakjf
+    dfjshfjkshd
+    dskjfksdaflkasdlfkj
+    dskjfksdaflkasdlfkjsdkjfka
+    sdkjflsk
+    sdkljfls
     print("Nodes in G: ", G.nodes(data=True))
     G.add_edge(0, 1, weight=10)
     print("Edges in G: ", G.edges(data=True))
