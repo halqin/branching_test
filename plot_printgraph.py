@@ -81,7 +81,10 @@ if __name__ == '__main__':
     G.add_node('foo')
     G.add_nodes_from('bar', weight=8)
     G.remove_node('b')
-    G.remove_nodes_from('ar')
+    df. skdjflkasjdfSSsss
+    dskjfksdaflkasdlfkj
+    dsfkajsdkfjas
+    dsfaksjfkjalkfjlakjf
     print("Nodes in G: ", G.nodes(data=True))
     G.add_edge(0, 1, weight=10)
     print("Edges in G: ", G.edges(data=True))
