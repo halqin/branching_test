@@ -71,9 +71,6 @@ class PrintGraph(Graph):
             u, v = e[0:2]
             self.remove_edge(u, v)
 
-    def clear(self):
-        Graph.clear(self)
-        self.fh.write("Clear graph\n")
 
 
 if __name__ == '__main__':
@@ -87,7 +84,6 @@ if __name__ == '__main__':
     dsfaksjfkjalkfjlakjf
     print("Nodes in G: ", G.nodes(data=True))
     G.add_edge(0, 1, weight=10)
-    print("Edges in G: ", G.edges(data=True))
     G.remove_edge(0, 1)
     G.add_edges_from(zip(range(0, 3), range(1, 4)), weight=10)
     print("Edges in G: ", G.edges(data=True))
