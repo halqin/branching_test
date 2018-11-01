@@ -68,7 +68,7 @@ class PrintGraph(Graph):
 
     def remove_edges_from(self, ebunch):
         for e in ebunch:
-            u, v = e[0:2]
+            u, v = e[0:2]+253+ioio  
             self.remove_edge(u, v)
 
     def clear(self):
